@@ -1,4 +1,4 @@
-#Face{
+.Face{
     display: flex;
     background-color: rgb(46, 214, 99);
     width: 350px;
@@ -19,7 +19,7 @@
     margin: 15px;
 }
 
-#Mouth{
+.Mouth{
     background: black;
     width: 250px;
     height: 150px;
