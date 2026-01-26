@@ -1,6 +1,6 @@
 body{
   /*background: gray;*/
-  background: url(https://img.freepik.com/free-photo/closeup-pool-water-texture_181624-59065.jpg?semt=ais_hybrid&w=740&q=80);
+  background: url(https://cdn.britannica.com/22/215522-050-8315BB78/green-grass-close-up.jpg?w=400&h=300&c=crop);
 }
 
 div{
@@ -12,7 +12,7 @@ div{
   }
 
 p{
-  color: rgb(20, 43, 156);
+  color: rgb(182, 40, 80);
   font-size: larger;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -21,7 +21,4 @@ span{
   background: rgb(99, 87, 227);
   color: black;
   display: block;
-  border: 10px;
-  border-color: rgb(225, 196, 255);
-  border-style: double;
 }
