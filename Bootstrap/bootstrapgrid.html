@@ -8,10 +8,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body class="bg-info-subtle bg-gradient">
+    <nav class="navbar navbar-expand-lg bg-success bg-gradient">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Bootstrap_practice.html">Missing Poster Page</a></li>
+            <li><a class="dropdown-item" href="../User Profile Project/profilepage.html">User Profile Page</a></li>
+            <li><a class="dropdown-item" href="../Project Code/SeniorBucketlist.html">Senior Bucketlist</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </nav>
+
     <h1 class="display-1 text-center text-success-emphasis">Different Plants</h1>
+
 <div class="container text-center bg-success bg-gradient text-white">
     <div class="row p-3 ">
-        <div class="col">
+        <div class="col p-3">
             Oak Tree
             <img src="https://media.gettyimages.com/id/516255614/vector/oak-tree-or-quercus-victorian-botanical-illustration.jpg?s=612x612&w=0&k=20&c=WBy0PsPDAlfTcHkh0GI3P876ZXW7vbAcBbhiWsqVmt0=" class="img-thumbnail" alt="">
         </div>
@@ -40,6 +70,9 @@
         
     </div>
 </div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
