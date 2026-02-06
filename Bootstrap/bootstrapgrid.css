@@ -1,0 +1,11 @@
+/*
+Source - https://stackoverflow.com/a/29642222
+Posted by Tom
+Retrieved 2026-02-04, License - CC BY-SA 3.0
+*/
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
